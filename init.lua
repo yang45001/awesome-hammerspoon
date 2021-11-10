@@ -67,7 +67,12 @@ if string.len(hswhints_keys[2]) > 0 then
         hs.hints.windowHints()
     end)
 end
-
+---------------------------------------------------------------------------------------------------
+-- Register ClipboardTool
+---------------------------------------------------------------------------------------------------
+spoon.ClipboardTool.show_in_menubar=false
+spoon.ClipboardTool:start()
+spoon.ClipboardTool:bindHotkeys({toggle_clipboard = hsclipbT_keys })
 ----------------------------------------------------------------------------------------------------
 -- appM modal environment
 spoon.ModalMgr:new("appM")
@@ -344,6 +349,7 @@ if spoon.AClock then
         spoon.ModalMgr.supervisor:bind(hsaclock_keys[1], hsaclock_keys[2], "Toggle Floating Clock", function() spoon.AClock:toggleShow() end)
     end
 end
+
 
 ----------------------------------------------------------------------------------------------------
 -- Register browser tab typist: Type URL of current tab of running browser in markdown format. i.e. [title](link)
