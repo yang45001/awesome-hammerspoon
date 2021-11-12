@@ -10,7 +10,11 @@ hspoon_list = {
     "HCalendar",
     "HSaria2",
     "HSearch",
+<<<<<<< HEAD
     "KSheet",
+=======
+    -- "KSheet",
+>>>>>>> 2f656505020ce83801bdf3719adc00d8a37b016f
     "SpeedMenu",
     -- "TimeFlow",
     -- "UnsplashZ",

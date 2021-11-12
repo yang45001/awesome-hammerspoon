@@ -42,10 +42,16 @@ if not hspoon_list then
         "ClipShow",
         "CountDown",
         "HCalendar",
+<<<<<<< HEAD
         --"HSaria2",
         --"HSearch",
         "KSheet",
         --"SpeedMenu",
+=======
+        "HSaria2",
+        "HSearch",
+        "SpeedMenu",
+>>>>>>> 2f656505020ce83801bdf3719adc00d8a37b016f
         "WinWin",
         "FnMate",
     }
@@ -67,12 +73,16 @@ if string.len(hswhints_keys[2]) > 0 then
         hs.hints.windowHints()
     end)
 end
+<<<<<<< HEAD
 ---------------------------------------------------------------------------------------------------
 -- Register ClipboardTool
 ---------------------------------------------------------------------------------------------------
 spoon.ClipboardTool.show_in_menubar=false
 spoon.ClipboardTool:start()
 spoon.ClipboardTool:bindHotkeys({toggle_clipboard = hsclipbT_keys })
+=======
+
+>>>>>>> 2f656505020ce83801bdf3719adc00d8a37b016f
 ----------------------------------------------------------------------------------------------------
 -- appM modal environment
 spoon.ModalMgr:new("appM")
@@ -350,7 +360,10 @@ if spoon.AClock then
     end
 end
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2f656505020ce83801bdf3719adc00d8a37b016f
 ----------------------------------------------------------------------------------------------------
 -- Register browser tab typist: Type URL of current tab of running browser in markdown format. i.e. [title](link)
 hstype_keys = hstype_keys or {"alt", "V"}
