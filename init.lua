@@ -42,16 +42,9 @@ if not hspoon_list then
         "ClipShow",
         "CountDown",
         "HCalendar",
-<<<<<<< HEAD
-        --"HSaria2",
-        --"HSearch",
-        "KSheet",
-        --"SpeedMenu",
-=======
         "HSaria2",
         "HSearch",
         "SpeedMenu",
->>>>>>> 2f656505020ce83801bdf3719adc00d8a37b016f
         "WinWin",
         "FnMate",
     }
